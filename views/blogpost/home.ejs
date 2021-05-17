@@ -1,0 +1,21 @@
+<%- include('./partials/blogheader.ejs'); -%>
+<div class="main-content">
+  <div class="card">
+    <h1>Introduction</h1>
+    <p><%= homeContent %></p>
+  </div>
+  <% if (posts.length > 0) { %>
+      <% posts.forEach(post => { %>
+        <div class="card">
+          <h1><%= post.title %></h1>%>
+          <% if (post.content.length > 200) { %>
+              <p><%= post.content.slice(0, 200) + ' ...' %> <a class="readmore" href='posts/<%=post._id%>' > Read More</a></p>
+          <% } else { %>
+              <p><%= post.content %> </p>
+          <% } %>
+          </div>
+      <% }); %>
+      
+  <% } %>
+</div>
+<%- include('./partials/blogfooter.ejs'); -%>

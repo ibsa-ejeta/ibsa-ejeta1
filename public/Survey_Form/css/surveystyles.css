@@ -1,0 +1,269 @@
+body {
+
+    margin: 0;
+  
+    padding: 0;
+  
+    background-color: #6768B1;
+  
+    color: #fff;
+  
+    font-family: 'Poppins', sans-serif;
+  
+    font-size: 20px;
+  
+  }
+  
+  
+  
+  header {
+  
+    padding-top: 20px;
+  
+    /* width: 50%; */
+  
+    margin: 0 auto;
+  
+    text-align: center;
+  
+  }
+  
+  
+  
+  label {
+  
+    display: block;
+  
+    padding: 0 0 10px;
+  
+    margin: 0 20px;
+  
+  }
+  
+  
+  
+  textarea {
+  
+    margin: 0 20px 30px;
+  
+    border: none;
+  
+    font-size: 16px;
+  
+    width: 92%;
+  
+    height: 100%;
+  
+  }
+  
+  
+  
+  
+  
+  .sub-section {
+  
+    margin: 0.6rem 1.2rem 1.5rem;
+  
+    color: #fff;
+  
+  }
+  
+  
+  
+  #title {
+  
+    margin-bottom: 5px;
+  
+  }
+  
+  
+  
+  #description {
+  
+    margin-top: 8px;
+  
+    font-style: italic;
+  
+  }
+  
+  
+  
+  .form-fill {
+  
+    background-color: #282848;
+  
+    width: 50%;
+  
+    margin: 40px auto;
+  
+    padding: 20px 30px;
+  
+    border-radius: 5px;
+  
+    color: #000;
+  
+  }
+  
+  
+  
+   #name, #email, #age, #dropdown, #submit, #dropdown2, #number, #phone-number, #birthdate {
+  
+    width: 93%;
+  
+    border-radius: 3px;
+  
+    font-size: 20px;
+  
+    border: none;
+  
+    margin: 0 20px;
+  
+    color: #111;
+  
+    padding: 12px 0;
+  
+  }
+  
+  
+  
+  #number {
+  
+    width: 33%;
+  
+    display: block;
+  
+    margin-right: 10px;
+  
+    margin-bottom: 1rem;
+  
+  }
+  
+  #phone-number {
+  
+    width: 93%;
+  
+    display: block;
+  
+  }
+  
+  
+  
+  #submit {
+  
+    background-color: #37AF65;
+  
+  }
+  
+  
+  
+  #dropdown, #dropdown2 {
+  
+    color: black;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  .center {
+  
+    display: block;
+  
+    margin-left: auto;
+  
+    margin-right: auto;
+  
+    width: 12%;
+  
+  }
+  
+  
+  
+  .weatherAdd {
+  
+    text-align: center;
+  
+    margin-bottom: 0;
+  
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 900px) {
+  
+    body {
+  
+      font-size: 14px;
+  
+    }
+  
+    .sub-section {
+  
+      /* text-align: left; */
+  
+      width: 90%;
+  
+      margin-left: 1rem;
+  
+    }
+  
+    .form-fill {
+  
+      padding-left: 0.5rem;
+  
+      width: 80%;
+  
+    }
+  
+    .form-input {
+  
+      font-size: 14px;
+  
+     
+  
+    }
+  
+    .phone {
+  
+      display: block;
+  
+      margin-bottom: 1rem;
+  
+    }
+  
+    
+  
+    input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  
+      font-size: 0.9rem;
+  
+    }
+  
+    input::-moz-placeholder { /* Firefox 19+ */
+  
+      font-size: 0.8rem;
+  
+    }
+  
+    input:-ms-input-placeholder { /* IE 10+ */
+  
+      font-size: 0.8rem;
+  
+    }
+  
+    input:-moz-placeholder { /* Firefox 18- */
+  
+      font-size: 0.8rem;
+  
+    }
+  
+    
+  
+  }
+  
+  

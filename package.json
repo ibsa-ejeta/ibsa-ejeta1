@@ -1,0 +1,43 @@
+{
+  "name": "personal_portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "vercel-build": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibsa-ejeta/Personal-Portfolio.git"
+  },
+  "author": "Ibsa",
+  "license": "ISC",
+  "engines": {
+    "node": "12.14.1"
+  },
+  "bugs": {
+    "url": "https://github.com/ibsa-ejeta/Personal-Portfolio/issues"
+  },
+  "homepage": "https://github.com/ibsa-ejeta/Personal-Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-sslify": "^1.2.0",
+    "lodash": "^4.17.20",
+    "math": "0.0.3",
+    "mongoose": "^5.10.5",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "openweather-apis": "^4.3.1",
+    "request": "^2.88.2",
+    "serve-favicon": "^2.5.0",
+    "xmlhttprequest": "^1.8.0",
+    "serve": "latest"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.9.1"
+  },
+  "keywords": [],
+  "description": ""
+}

@@ -1,0 +1,148 @@
+/* dddddd
+222831
+30475e
+f05454 */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    color: #222831;
+    /* background-image: url("../../images/linus-nylund-UCIZh0-OYPw-unsplash.jpg");
+    background-size: cover; */
+    background-color: #ddd;
+    font-size: 1.2rem;
+  }
+  
+  .top-nav {
+    /* height: 5rem; */
+    padding-right: 3rem;
+    background-color: #30475e;
+    /* height: 10%; */
+  }
+  .navbar-toggler {
+    background-color: #f05454;
+    margin-bottom: 0.7rem;
+  }
+  #brand {
+    font-size: 2rem;
+    color: #f05454;
+    padding-left: 4rem;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+  }
+  .nav-item {
+    margin-right: 2.5rem;
+    
+    
+  }
+  
+  #menu_buttons > li > a {
+    color: #f05454;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    /* padding: 1rem auto; */
+  }
+  
+  #menu_buttons > li > a:hover {
+    color: #f05454;
+  }
+  main {
+    /* background-color: #3490de; */
+    margin: 0 auto;
+    /* height: 0vh; */
+    padding-top: 14rem;
+    padding-bottom: 7rem;
+  }
+  
+  .card {
+    background-color: #ddd;
+    margin-bottom: 3rem;
+    border-color: #ddd;
+    
+  }
+  .main-content p {
+    text-align: justify;
+    
+  }
+  .readmore {
+    color: #f05454;
+  }
+  .readmore:hover {
+    color: #f05454;
+    opacity: 0.8;
+  }
+  .inputs {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .form-control {
+    font-size: 1.2rem;
+    color: #000;
+  }
+  .btn {
+    background-color: #f05454;
+    color: #222831;
+    padding: 0.8rem 2rem 0.3rem;
+    font-size: 1.5rem;
+    border-color: #f05454;
+    letter-spacing: 0.2rem;
+  }
+  .btn:hover {
+    background-color: #f05454;
+    color: #222831;
+    border-color: #f05454;
+    opacity: 0.8;
+  }
+  .contact {
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+  }
+  .profile-a {
+    color: #f05454;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+  .profile-a:hover {
+    color: #f05454;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  
+  footer  {
+    background-color: #30475e;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  footer > p {
+    padding-top: 1rem;
+    color: #f05454;
+  }
+  
+  
+  @media only screen and (max-width: 1490px) {
+    .container {
+      width: 80%;
+    }
+  
+    #menu_buttons > li > a {
+      text-align: center;
+      font-size: 1rem;
+      letter-spacing: 0;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 990px) {
+    #brand {
+      margin: 0 auto;
+    }
+    .profile-a {
+     display: block;
+     margin: 0rem auto;
+    }
+  
+  }

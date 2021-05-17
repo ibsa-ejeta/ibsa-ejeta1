@@ -1,0 +1,19 @@
+<%- include('./partials/blogheader.ejs'); -%>
+<div class="main-content">
+    <h1>Compose</h1>
+    <form action='/blog/compose' method='post' class="">
+        <div class=''>
+            <div class="inputs">
+                <label class='compose' for='inputT'>Title: </label>
+                <input class='form-control' id='inputT' type='text' name='postTitle'>
+            </div>
+            <div class="inputs">
+                <label for='insideT' class="compose">Post: </label>
+                <textarea class='form-control' id='insideT' name='postBody' rows='10'></textarea>
+            </div>
+        </div>
+        <button type='submit' class='btn btn-primary'>Publish</button>
+    </form>
+</div>
+
+<%- include('./partials/blogfooter.ejs'); -%>

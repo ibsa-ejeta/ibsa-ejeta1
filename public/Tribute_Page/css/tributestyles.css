@@ -1,0 +1,194 @@
+body {
+    font-family: BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #2e279d;
+    margin: 0;
+    background-color: #dff6f0;
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+  }
+  
+  button {
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin-top: 1rem;
+    color: #2e279d !important;
+    background-color: #dff6f0 !important;
+  }
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 3.25rem;
+  }
+  
+  a {
+    color: #46b3e6;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #46b3e6;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    padding: 2rem 0;
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+  }
+  .img-div {
+    /* background: white; */
+    margin: 0;
+    padding: 0;
+    border-radius: 0.3rem;
+  }
+  .img-responsive {
+    margin-top: 2rem;
+  }
+  #img-caption {
+    margin: 1rem 0 0.4rem 0;
+  }
+  
+  .content {
+    margin: 4rem auto;
+    /* position: relative; */
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+  }
+  .tribute-info {
+    margin: 0 1rem;
+    padding-bottom: 2rem;
+  }
+  .converter {
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    /* padding: 20rem auto 0rem; */
+    margin: 0 auto;
+    background-color: #46b3e6;
+    width: 80%;
+    margin: 16rem auto;
+  }
+  
+  .powerTodBm,
+  .dBmToPower {
+    background-color: #46b3e6;
+  }
+  
+  .form-control {
+    width: 70%;
+    margin: 0 auto;
+    color: #2e279d !important;
+    opacity: 1;
+    background-color: #dff6f0;
+  }
+  .quote {
+    background-color: #46b3e6;
+    text-align: center;
+    border-radius: 0.2rem;
+    margin: 0 1rem;
+  }
+  
+  .calculator1,
+  .calculator2 {
+    padding-bottom: 2rem;
+  }
+  .headline {
+    margin: 3rem 0;
+  }
+  ul {
+    /* max-width: 700px; */
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6;
+  }
+  li {
+    margin: 1rem 0;
+    list-style-type: square;
+  }
+  blockquote {
+    font-style: italic;
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+    text-align: left;
+  }
+  .secondQuote {
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 990px) {
+    body {
+      font-size: 1rem;
+    }
+    #main {
+      margin: 0;
+    }
+    h1 {
+      font-size: 3rem;
+      line-height: 1.2;
+    }
+    #img-caption {
+      font-size: 1.4rem;
+    }
+    .img-div {
+      margin: 0 3rem;
+    }
+    .wrapper {
+      display: grid;
+      grid-template-rows: 1fr 7fr 1fr;
+      grid-auto-columns: 1fr;
+    }
+    .powerTodBm {
+      grid-row: 1;
+      grid-column: 1/5;
+    }
+    .tribute-info {
+      grid-row: 2;
+      grid-column: 1/5;
+      margin: 0 2rem;
+    }
+    .dBmToPower {
+      grid-row: 3;
+      grid-column: 1/5;
+    }
+  
+    .powerTodBm,
+    .dBmToPower {
+      margin: 2rem auto;
+      width: 80%;
+      border-radius: 0.2rem;
+    }
+  
+    .converter {
+      text-align: center;
+      position: relative;
+      margin-top: 0rem;
+      margin-bottom: 0;
+      padding-top: 0.2rem;
+      padding-bottom: 0rem;
+      /* height: 40%; */
+    }
+    .calculator1,
+    .calculator2 {
+      padding: 0 auto;
+      margin: 0 auto;
+    }
+  }
+  
+  /* dff6f0
+  46b3e6
+  4d80e4
+  2e279d */
