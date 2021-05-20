@@ -1,4 +1,4 @@
-const express = require('express');
+﻿const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const http = require('http');
@@ -38,6 +38,4 @@ app.listen(process.env.PORT || 3000, () => {
   console.log('server started on port 3000!');
 });
 
-// $ git add .
-// $ git commit -am "make it better"
-// $ git push heroku master
+

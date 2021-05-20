@@ -7,16 +7,16 @@ const { json } = require('body-parser');
 const router = express.Router();
 
 //Use the following for localhost
-const surveying = mongoose.createConnection(
-  'mongodb://localhost:27017/surveyDB',
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
+// const surveying = mongoose.createConnection(
+//   'mongodb://localhost:27017/surveyDB',
+//   { useNewUrlParser: true, useUnifiedTopology: true }
+// );
 
 // Use the following for Heroku
-// const surveying = mongoose.createConnection(process.env.MONGODB_URI2, {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// });
+const surveying = mongoose.createConnection(process.env.MONGODB_URI2, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const surveySchema = {
   fullname: String,

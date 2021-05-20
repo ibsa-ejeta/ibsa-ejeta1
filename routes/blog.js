@@ -7,16 +7,16 @@ const homeStartingContent =
   "In this journal, you can create and publish your own daily journals on subjects such as Web Development. Go to 'COMPOSE' to enter the Journal's Title and Content on the space provided and click 'Publish'. Your Journal will be visible in the 'Home' page.";
 
 // Use the following for localhost
-const bloging = mongoose.createConnection('mongodb://localhost:27017/blogDB', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
-
-// Use the following for Heroku
-// const bloging = mongoose.createConnection(process.env.MONGODB_URI1, {
+// const bloging = mongoose.createConnection('mongodb://localhost:27017/blogDB', {
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
 // });
+
+// Use the following for Heroku
+const bloging = mongoose.createConnection(process.env.MONGODB_URI1, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const blogsSchema = {
   title: String,
